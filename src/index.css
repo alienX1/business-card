@@ -66,6 +66,10 @@ body {
 .LinkedIn {
   background-color: #5093e2;
 }
+.Mail:hover,
+.LinkedIn:hover {
+  opacity: 0.8;
+}
 
 .About,
 .Interests {
@@ -103,4 +107,7 @@ body {
 .Footer svg {
   height: 25px;
   width: 25px;
+}
+.Footer svg:hover {
+  opacity: 0.8;
 }
