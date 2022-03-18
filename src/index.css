@@ -5,9 +5,102 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #23252c;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Container {
+  max-width: 317px;
+  height: 100%;
+  margin: 40px auto;
+  background-color: #1a1b21;
+  border-radius: 11px 11px 0 0;
+}
+.Container img {
+  max-width: 100%;
+  border-radius: 11px 11px 0 0;
+}
+
+.Details {
+  width: 75%;
+  margin: auto;
+}
+.Name {
+  color: #ffffff;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30.26px;
+  text-align: center;
+  font-style: normal;
+  margin-top: 0px;
+}
+.Role {
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 12.8px;
+  font-style: normal;
+  margin-top: -15px;
+}
+.Quick-Links {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.LinkedIn,
+.Mail {
+  display: flex;
+  align-items: center;
+  width: 115px;
+  height: 34px;
+  justify-content: space-between;
+  border-radius: 6px;
+  padding: 9px 20px;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Mail {
+  padding: 9px 25px;
+}
+.LinkedIn {
+  background-color: #5093e2;
+}
+
+.About,
+.Interests {
+  text-align: left;
+}
+.About b,
+.Interests b {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: #f5f5f5;
+}
+.About b {
+  padding-top: 20px;
+}
+.About p,
+.Interests p {
+  color: #dcdcdc;
+  font-size: 10.24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.Interests p {
+  padding-bottom: 20px;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 70px;
+  background-color: #161619;
+  height: 65px;
+}
+.Footer svg {
+  height: 25px;
+  width: 25px;
 }
