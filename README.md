@@ -3,4 +3,4 @@
 3. Fully resposive in all type of device
 4. Icons used in this is from bootstrap icons
 5. I have deployed it on Netlify.
-6. Here is the Link :
+6. Here is the Link : https://awesome-montalcini-b2de7d.netlify.app/
